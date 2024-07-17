@@ -5,8 +5,9 @@ This project is focused on transcribing audio files from TED Talk playlists usin
 ## Key Features
 
 - **Download Audio**: Use `youtube-dl` to download audio from YouTube playlists.
+- **Transcribe audio from mic**: Utilizes PyAudio to caputre audio from mic input and save transcription to external txt file.
 - **Convert to Mono**: Convert stereo audio files to mono using `ffmpeg`.
-- **Transcription**: Transcribe the audio files using the Vosk speech recognition library.
+- **Transcription**: Transcribe the audio files from pre-recorded audio using the Vosk speech recognition library.
 - **Data Used**: This showcase of the project transcribes three youtube Ted Talk Playlist which can be found below
 
   
