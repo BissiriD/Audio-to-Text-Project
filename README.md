@@ -20,7 +20,7 @@ This project is focused on transcribing audio files from TED Talk playlists usin
   License
 This project is licensed under the MIT License.
 
-Acknowledgements
+## Acknowledgements
 
 Vosk Speech Recognition
 
