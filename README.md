@@ -21,6 +21,9 @@ This project is focused on transcribing audio files from TED Talk playlists usin
 This project is licensed under the MIT License.
 
 Acknowledgements
+
 Vosk Speech Recognition
+
 youtube-dl
+
 ffmpeg
