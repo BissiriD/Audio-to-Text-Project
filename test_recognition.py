@@ -2,7 +2,7 @@ from vosk import Model, KaldiRecognizer
 import wave
 import json
 
-model = Model(r"C:\\Users\\Bissiri's PC\\Downloads\\speech_rec_project\\vosk-model-en-us-0.22.zip\\vosk-model-en-us-0.22")
+model = Model("Path to Vosk Model")
 
 def transcribe_vosk(audio_file_path):
     wf = wave.open(audio_file_path, "rb")
@@ -24,7 +24,10 @@ def transcribe_vosk(audio_file_path):
     results.append(json.loads(recognizer.FinalResult())['text'])
     return "".join(results)
 
-audio_file_path = "C:\\Users\\Bissiri's PC\\Downloads\\speech_rec_project\\playlist_1\\How “Digital Twins” Could Help Us Predict the Future Karen Willcox.wav"
+audio_file_path = "Path to an Audio File"
 transcription = transcribe_vosk(audio_file_path)
-print(transcription)
+
+video_file = open("audio_file.txt", 'w')
+video_file.write(transcription)
+
     

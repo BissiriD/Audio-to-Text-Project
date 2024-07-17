@@ -15,4 +15,8 @@ vosk-model-en-us-0.22/
 *.tmp
 
 # Ignore video playlist
-video/
+audio_files/
+
+convert_to_mono.bat
+
+vosk-model-en-us-0.22.zip
